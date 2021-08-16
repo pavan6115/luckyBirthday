@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 * {
     margin : 0;
     padding : 0;
 }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    margin: 2rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.container {
+    width: 60%;
+    margin: 3rem 29rem;
+}
+
+.dateOfBirth-label {
+    margin: 0rem 10rem;
+    font-size: 1.2rem;
+}
+
+#dateOfBirth {
+    margin: .4rem 0rem; 
+    height: 1.5rem;
+    width: 50%;
+    padding: .8rem;
+    margin-bottom: 1.8rem;
+}
+
+.luckyNum-label {
+    margin: 0rem 8rem;
+    font-size: 1.2rem;
+}
+
+#luckyNum {
+    margin: .4rem 0rem;
+    height: 1.5rem;
+    width: 50%;
+    padding: .8rem;
+}
+
+.checkBtn {
+    display: block;
+    margin: 1.3rem 12rem;
+    height: 2rem;
+    width: 5.3rem;
+    font-size: 1rem;
+}
+
+.outputMsg {
+    margin: 4rem 8rem;
+    font-size: 1.6rem;
+}
+
